@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables file
+.env
+
+# ESLint
+.eslintcache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# TypeScript
+*.tsbuildinfo
+
+# Visual Studio Code
+.vscode/
+
+# npm
+npm-debug.log
+*.lock
+node_modules/
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# parcel-bundler
+.cache/
+dist/
+
+# Next.js
+.next/
+out/
+
+# Nest.js
+/dist
+/packages/*/dist/
+
+# Build process
+build/
+out/

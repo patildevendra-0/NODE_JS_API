@@ -3,6 +3,11 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8080
 const ConnectDB = require("./DataBase/ConnectDB");
+const User_Router = require("./Routes/User.Route");
+const Body_Parser = require('body-parser');
+
+app.use(Body_Parser.json());
+app.use("/api/user",User_Router);
 
 app.get("/",(req,res)=>
 {
